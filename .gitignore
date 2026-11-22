@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Raw Cricsheet downloads are re-fetched by scripts/prepare_data.py
+data/raw/
+# Local AI-assistant tooling, not part of the project
+.agents/
+.claude/

@@ -1,0 +1,5 @@
+method,runs,valid_rate_feasible_cases,correct_no_xi_on_infeasible,mean_score,mean_gap_to_optimum_pct,max_gap_pct,optimum_hit_rate,mean_runtime_s,max_runtime_s,timeouts
+Backtracking,20,1.0,1.0,534.5808,0.0,0.0,1.0,0.0035,0.0138,0
+Backtracking (no Lagrangian bound),20,1.0,1.0,528.6554,1.1798,9.4257,0.7692,8.1994,30.0139,5
+Genetic,200,1.0,1.0,534.5808,0.0,0.0,1.0,1.6387,4.3892,0
+Greedy,20,0.8462,1.0,529.9155,2.3135,10.0002,0.2727,0.0007,0.0027,0

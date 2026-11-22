@@ -1,0 +1,29 @@
+[client]
+# Hide developer controls (Deploy button, rerun, clear cache) from the toolbar.
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false
+
+# Plain, locked light theme: white page, dark text, one muted accent.
+[theme]
+base = "light"
+primaryColor = "#1F5130"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F4"
+textColor = "#1C1C1C"
+linkColor = "#1F5130"
+borderColor = "#D6D3D1"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "3px"
+buttonRadius = "3px"
+font = "'Helvetica Neue', Helvetica, Arial, sans-serif"
+headingFont = "'Helvetica Neue', Helvetica, Arial, sans-serif"
+baseFontSize = 14
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+headingFontSizes = ["28px", "21px", "17px", "15px", "14px", "13px"]
+linkUnderline = true
+chartCategoricalColors = ["#1F5130", "#B45F06", "#3D5A80", "#7F7F7F", "#8C2D19", "#5B7F3A", "#6B4E71"]
+dataframeHeaderBackgroundColor = "#F5F5F4"
+dataframeBorderColor = "#D6D3D1"
