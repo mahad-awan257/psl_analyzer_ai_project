@@ -1,29 +1,48 @@
 [client]
-# Hide developer controls (Deploy button, rerun, clear cache) from the toolbar.
-toolbarMode = "viewer"
+# No Deploy button or developer menu.
+toolbarMode = "minimal"
 
 [browser]
 gatherUsageStats = false
 
-# Plain, locked light theme: white page, dark text, one muted accent.
+[server]
+# Serves static/ (logo and the Archivo font), so the site also works offline.
+enableStaticServing = true
+
 [theme]
 base = "light"
-primaryColor = "#1F5130"
+primaryColor = "#14743F"
 backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F5F5F4"
-textColor = "#1C1C1C"
-linkColor = "#1F5130"
-borderColor = "#D6D3D1"
+secondaryBackgroundColor = "#EAF5EE"
+textColor = "#12261A"
+linkColor = "#14743F"
+borderColor = "#C6DDCE"
 showWidgetBorder = true
-showSidebarBorder = true
-baseRadius = "3px"
-buttonRadius = "3px"
-font = "'Helvetica Neue', Helvetica, Arial, sans-serif"
-headingFont = "'Helvetica Neue', Helvetica, Arial, sans-serif"
-baseFontSize = 14
-headingFontWeights = [600, 600, 600, 600, 600, 600]
-headingFontSizes = ["28px", "21px", "17px", "15px", "14px", "13px"]
-linkUnderline = true
-chartCategoricalColors = ["#1F5130", "#B45F06", "#3D5A80", "#7F7F7F", "#8C2D19", "#5B7F3A", "#6B4E71"]
-dataframeHeaderBackgroundColor = "#F5F5F4"
-dataframeBorderColor = "#D6D3D1"
+baseRadius = "8px"
+buttonRadius = "8px"
+# Archivo from Google Fonts, served from static/fonts.
+font = "Archivo, Arial, sans-serif"
+headingFont = "Archivo, Arial, sans-serif"
+baseFontSize = 18
+paddingTop = "0rem"
+paddingBottom = "0rem"
+headingFontSizes = ["56px", "38px", "26px", "22px", "20px", "18px"]
+headingFontWeights = [800, 800, 700, 700, 700, 700]
+metricValueFontSize = "1.75rem"
+metricValueFontWeight = 800
+# Categorical order checked for colour-blind separation.
+chartCategoricalColors = ["#2a78d6", "#eb6834", "#1baa7a", "#4a3aa7"]
+dataframeHeaderBackgroundColor = "#D8EEDF"
+dataframeBorderColor = "#C6DDCE"
+
+[theme.sidebar]
+backgroundColor = "#0C3B21"
+secondaryBackgroundColor = "#17573A"
+textColor = "#FFFFFF"
+primaryColor = "#86E0A8"
+borderColor = "#17573A"
+
+[[theme.fontFaces]]
+family = "Archivo"
+url = "app/static/fonts/archivo-latin.woff2"
+weight = "400 800"

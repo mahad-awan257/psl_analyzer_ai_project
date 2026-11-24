@@ -1,0 +1,5 @@
+method,solvable_runs,found_rate,best_rate,mean_gap_pct,max_gap_pct,mean_runtime_s,max_runtime_s,timeouts,mean_nodes,mean_backtracks,no_team_correct
+Backtracking,13,1.0,1.0,0.0,0.0,0.0048,0.0143,0,349.7692,101.3846,1.0
+Backtracking (no Lagrangian bound),13,1.0,0.7692,1.1798,9.4257,12.7673,30.0126,5,1917257.9231,887412.8462,1.0
+Genetic,130,1.0,1.0,0.0,0.0,2.7429,4.9309,0,,,1.0
+Greedy,13,0.8462,0.2308,2.3135,10.0002,0.0008,0.003,0,,,1.0

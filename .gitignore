@@ -4,6 +4,12 @@ __pycache__/
 .pytest_cache/
 # Raw Cricsheet downloads are re-fetched by scripts/prepare_data.py
 data/raw/
+# Accounts and saved teams stay on this computer
+data/local/
+outputs/quick/
+.streamlit/secrets.toml
 # Local AI-assistant tooling, not part of the project
 .agents/
 .claude/
+# Superseded report drafts
+drafts/

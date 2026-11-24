@@ -1,0 +1,31 @@
+League strike rate went from 144.8 in 2022/23 to 143.3 in 2026, and economy from 9.04 to 8.93.
+Most runs: 2022/23, Mohammad Rizwan (550); 2023/24, Babar Azam (569); 2025, Sahibzada Farhan (449); 2026, Babar Azam (588).
+Most wickets: 2022/23, Abbas Afridi (23); 2023/24, Usama Mir (24); 2025, Shaheen Shah Afridi (19); 2026, Sufiyan Muqeem (22).
+All-rounders average 46.7 fantasy points per match, against 40.4 for batters, 42.1 for bowlers and 44.7 for wicketkeepers.
+case  0 pool  16 budget  75.0 | BT nan (infeasible, 0.001s) | greedy nan | GA mean nan
+case  1 pool  18 budget  90.0 | BT 536.71 (optimal, 0.002s) | greedy 535.05 | GA mean 536.71 | exact 536.71
+case  2 pool  20 budget 100.0 | BT 594.47 (optimal, 0.002s) | greedy 594.47 | GA mean 594.47 | exact 594.47
+case  3 pool  25 budget  80.0 | BT nan (infeasible, 0.001s) | greedy nan | GA mean nan
+case  4 pool  30 budget  80.0 | BT 440.49 (optimal, 0.003s) | greedy nan | GA mean 440.49
+case  5 pool  40 budget  85.0 | BT 518.56 (optimal, 0.003s) | greedy 508.80 | GA mean 518.56
+case  6 pool  50 budget  85.0 | BT 550.62 (optimal, 0.003s) | greedy 541.99 | GA mean 550.62
+case  7 pool  60 budget  85.0 | BT 557.93 (optimal, 0.014s) | greedy 550.33 | GA mean 557.93
+case  8 pool  80 budget  85.0 | BT 550.87 (optimal, 0.007s) | greedy 518.76 | GA mean 550.87
+case  9 pool 100 budget 100.0 | BT 725.58 (optimal, 0.010s) | greedy 704.28 | GA mean 725.58
+case 10 pool 131 budget  75.0 | BT 438.59 (optimal, 0.007s) | greedy 394.73 | GA mean 438.59
+case 11 pool  16 budget  75.0 | BT nan (infeasible, 0.001s) | greedy nan | GA mean nan
+case 12 pool  18 budget  80.0 | BT 449.51 (optimal, 0.001s) | greedy 449.51 | GA mean 449.51 | exact 449.51
+case 13 pool  20 budget  90.0 | BT 545.78 (optimal, 0.003s) | greedy nan | GA mean 545.78 | exact 545.78
+case 14 pool  25 budget  80.0 | BT 446.01 (optimal, 0.003s) | greedy 446.01 | GA mean 446.01
+case 15 pool  30 budget  75.0 | BT nan (infeasible, 0.002s) | greedy nan | GA mean nan
+case 16 pool  40 budget  75.0 | BT nan (infeasible, 0.002s) | greedy nan | GA mean nan
+case 17 pool  50 budget  90.0 | BT 594.43 (optimal, 0.004s) | greedy 585.14 | GA mean 594.43
+case 18 pool  40 budget 100.0 | BT nan (infeasible, 0.001s) | greedy nan | GA mean nan
+case 19 pool 131 budget  67.5 | BT nan (infeasible, 0.006s) | greedy nan | GA mean nan
+                                    solvable_runs  found_rate  best_rate  mean_gap_pct  max_gap_pct  mean_runtime_s  max_runtime_s  timeouts    mean_nodes  mean_backtracks  no_team_correct
+method                                                                                                                                                                                      
+Backtracking                                   13      1.0000     1.0000        0.0000       0.0000          0.0048         0.0143         0  3.497692e+02         101.3846              1.0
+Backtracking (no Lagrangian bound)             13      1.0000     0.7692        1.1798       9.4257         12.7673        30.0126         5  1.917258e+06      887412.8462              1.0
+Genetic                                       130      1.0000     1.0000        0.0000       0.0000          2.7429         4.9309         0           NaN              NaN              1.0
+Greedy                                         13      0.8462     0.2308        2.3135      10.0002          0.0008         0.0030         0           NaN              NaN              1.0
+exit 0
